@@ -7,7 +7,7 @@ const { WEBHOOK_VERIFY_TOKEN, GRAPH_API_TOKEN, PORT } = process.env;
 
 app.get("/", (req, res) => {
   res.status(200).send("Running Express");
-});
+}); 
 
 app.post("/webhook", async (req, res) => {
   try {
